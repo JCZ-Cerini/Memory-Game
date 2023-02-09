@@ -1,0 +1,19 @@
+:root {
+  --bg: rgb(60, 60, 60);
+  --font: "Archivo", sans-serif;
+  --font-display: "Archivo Narrow", sans-serif;
+  --Blue: #1932ff;
+  --MediumPurple: #9370db;
+  --gradient: linear-gradient(35deg, var(--Blue), var(--MediumPurple));
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  min-height: 100vh;
+  background: var(--bg);
+  font-family: var(--font);
+}
